@@ -1,4 +1,30 @@
+* {
+    margin: 0;
+}
+
 body {
-    margin : 0;
+    display: flex; /* Mengatur parent body menggunakan flexbox */
+    justify-content: center; /* Memusatkan elemen secara horizontal */
+    margin : 20px;
     font-family: sans-serif;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 20px;
+    align-self: flex-start;
+    text-align: center;
+}
+table {
+    border-collapse: collapse; /* Menggabungkan batas-cel dan menghapus cel yang berlebihan */
+    width: 100%
+}
+table, th, td {
+    border: 1px solid black; /* Menambahkan batas 1px solid hitam pada tabel, sel header, dan sel data */
+}
+
+th, td {
+    padding: 8px; /* Menambahkan ruang di dalam sel */
+    text-align: center; /* Mengatur teks di dalam sel agar berada di sisi kiri */
 }
