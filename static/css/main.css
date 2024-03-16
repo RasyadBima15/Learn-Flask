@@ -16,6 +16,19 @@ body {
     align-self: flex-start;
     text-align: center;
 }
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.update{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#content{
+    width: 73%;
+}
 table {
     border-collapse: collapse; /* Menggabungkan batas-cel dan menghapus cel yang berlebihan */
     width: 100%
